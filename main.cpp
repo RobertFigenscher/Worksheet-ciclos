@@ -18,6 +18,16 @@ int main()
    if (num4 % 3 != 0 || num4 == 0) 
     cout << num4 << ", ";
   cout << endl;
+
+
+  for (int num5 = 54; num5 >= 0; num5 /= 2)
+  { 
+    cout << num5 << ", ";
+    if (num5 == 0)
+    break;
+  }
+  cout << endl;
   return 0;
+  
 }
   
