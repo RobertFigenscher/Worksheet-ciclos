@@ -27,6 +27,11 @@ int main()
     break;
   }
   cout << endl;
+
+    for (char val = 'A'; val <= 'Z'; val++)
+     cout << val << ", " ;
+  cout << endl; 
+  
   return 0;
   
 }
